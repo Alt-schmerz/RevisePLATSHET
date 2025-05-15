@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#8FA692"
+    android:padding="16dp">
+
+    <!-- Title of the Activity -->
+    <TextView
+        android:id="@+id/tvActivityTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Activity Title"
+        android:textColor="@color/brown"
+    android:textSize="16sp" />
+
+    <!-- Date of the Activity -->
+    <TextView
+        android:id="@+id/tvActivityDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brown"
+
+        android:text="Activity Date"
+        android:textSize="14sp" />
+
+    <!-- Description of the Activity -->
+    <TextView
+        android:id="@+id/tvActivityDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brown"
+
+        android:text="Activity Description"
+        android:textSize="14sp" />
+
+    <!-- Button to Edit Activity -->
+    <Button
+        android:id="@+id/btnEditActivity"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/green"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Edit Activity" />
+
+    <!-- Button to Delete Activity -->
+    <Button
+        android:id="@+id/btnDeleteActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:backgroundTint="@color/green"
+
+        android:text="Delete Activity" />
+
+    <!-- Button to Undo Activity -->
+    <Button
+        android:id="@+id/btnUndoActivity"
+    android:layout_width="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+
+        android:text="Undo Activity" />
+
+</LinearLayout>

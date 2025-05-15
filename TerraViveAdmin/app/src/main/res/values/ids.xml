@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activityDateTextView" type="id" />
+    <item name="action_SecondFragment_to_TermsAndConditionsFragment" type="id" />
+    <item name="go_to_activities" type="id" />
+    <item name="tvAdminProfile" type="id" />
+    <item name="fragment_admin_donations" type="id" />
+    <item name="no_logs_text_view" type="id" />
+</resources>

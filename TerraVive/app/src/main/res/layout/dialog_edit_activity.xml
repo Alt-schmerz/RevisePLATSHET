@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <!-- Activity Title EditText -->
+    <EditText
+        android:id="@+id/editTextTitle"
+    android:hint="Activity Name"
+    android:inputType="textPersonName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Activity Date EditText (Consider adding a Date Picker instead) -->
+    <EditText
+        android:id="@+id/editTextDate"
+    android:hint="Date (e.g. 2025-05-12)"
+    android:inputType="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:focusable="true"
+    android:clickable="true" />
+
+    <!-- Activity Time EditText (Consider adding a Time Picker instead) -->
+    <EditText
+        android:id="@+id/editTextTime"
+    android:hint="Time (e.g. 14:00)"
+    android:inputType="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:focusable="true"
+    android:clickable="true" />
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:hint="Time (e.g. 14:00)"
+        android:inputType="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:focusable="true"
+        android:clickable="true" />
+
+    <!-- Activity Description EditText -->
+    <EditText
+        android:id="@+id/editTextDescription"
+    android:hint="Description"
+    android:inputType="textMultiLine"
+    android:minLines="3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:gravity="top|start" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center_horizontal">
+
+    <!-- RecyclerView for displaying the activities -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewActivities"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- Button for creating new activities -->
+    <Button
+        android:id="@+id/btnAddActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Create New Activity"
+    android:layout_marginTop="16dp"
+    android:padding="12dp"
+    android:backgroundTint="@color/dark_green"
+    android:textColor="@android:color/white" />
+</LinearLayout>
