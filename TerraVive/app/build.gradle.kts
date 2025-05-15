@@ -7,6 +7,15 @@ plugins {
 
 android {
     namespace = "com.example.terravive"
+    
+    sourceSets {
+        getByName("main") {
+            java.srcDirs("src/main/java")
+            res.srcDirs("src/main/res/layout/client", 
+                       "src/main/res/layout/admin",
+                       "src/main/res/layout/organizer")
+        }
+    }
     compileSdk = 35
 
     defaultConfig {
